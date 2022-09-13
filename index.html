@@ -10,22 +10,23 @@
 
   <body>
     <nav>
-      <h2>About</h2>
-      <h2>Login</h2>
-      <h2>New User?</h2>
+      <h2 id="about">About</h2>
+      <h2 id="login">Login</h2>
+      <h2 id="newuser">New User?</h2>
     </nav>
 
     <header>
       <h1>Thirsty Plants</h1>
     </header>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <form class="Search" action="action_page.php">
-      <input type="text" placeholder="Search for Plants" name="search" />
-      <button type="submit"><i class="fa fa-search"></i></button>
+    <form id="form">
+      <input
+        type="search"
+        id="query"
+        name="q"
+        placeholder="Search for Plants..."
+      />
+      <button id="go">Go!</button>
     </form>
   </body>
 </html>
