@@ -1,9 +1,8 @@
 h1{color: rgb(5, 114, 5); text-align: center; font-size: 80px; position:relative;
     top: 120px; left: -110px;}
-body{background-image: url('./plants\ background.png'); background-repeat: none
+body{background-image: url('plants\ background.png'); background-repeat: none
     ; background-size: 100%;}
 h2 {float: left; position: relative; padding-top: 0; margin-top: 0;}
-.Search input[type=text]{position: relative; left: 350px;top: 120px; width: 50%; 
-    padding: 20px; font-size: 15px;}
-.Search button {position:relative; left: 350px; top: 120px; padding: 21px;}
-
+#form {position: relative; top: 100px; left: 450px;}
+#query {padding: 15px; width: 550px;}
+#go {padding: 15px}
