@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Thirsty Plants</title>
+
+    <style>
+      body {
+        background-image: url("login\ background.png");
+      }
+
+      h1 {
+        font-size: 60px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 0, 0;
+      }
+      h2 {
+        position: relative;
+        top: 130px;
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+      }
+      #sign {
+        background-color: antiquewhite;
+        opacity: 1;
+      }
+      .signin {
+        width: 30%;
+        text-align: center;
+        position: relative;
+        left: 950px;
+        top: -150px;
+        padding-bottom: 240px;
+        padding-top: 80px;
+      }
+      p {
+        font-size: 30px;
+        position: relative;
+        top: -90px;
+      }
+      #username {
+        font-size: 30px;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        border-style: hidden;
+      }
+
+      #password {
+        font-size: 30px;
+        border-radius: 25px;
+        border-style: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="welcome">
+      <h1>Welcome to Thirsty Plants!</h1>
+      <h2>
+        Create your account and get started,<br />
+        you won't regret it.<br />
+      </h2>
+    </div>
+
+    <div class="signin" id="sign">
+      <p>Sign In</p>
+      <form>
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <label for="pword">Password:</label><br />
+        <input type="text" id="password" name="password" />
+      </form>
+    </div>
+  </body>
+</html>
