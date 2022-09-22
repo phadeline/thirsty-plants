@@ -8,38 +8,32 @@
 
     <style>
       body {
-        background-image: url("login\ background.png");
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(223, 230, 223);
       }
 
-      h1 {
-        font-size: 60px;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        padding: 0, 0;
-      }
-      h2 {
-        position: relative;
-        top: 130px;
-        font-size: 40px;
-        color: rgb(0, 0, 0);
-      }
       #sign {
-        background-color: antiquewhite;
+        background-image: url("login\ background.png");
         opacity: 1;
+        border-radius: 25px;
+        border-style: dashed;
       }
       .signin {
         width: 30%;
         text-align: center;
         position: relative;
-        left: 950px;
-        top: -150px;
-        padding-bottom: 240px;
-        padding-top: 80px;
+        left: 500px;
+        top: 80px;
+        padding-bottom: 200px;
       }
+
       p {
         font-size: 30px;
         position: relative;
-        top: -90px;
+        top: 0px;
       }
       #username {
         font-size: 30px;
@@ -48,31 +42,46 @@
         border-style: hidden;
       }
 
+      #getstarted {
+        position: relative;
+        top: -20px;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+      }
+
       #password {
         font-size: 30px;
         border-radius: 25px;
         border-style: hidden;
       }
+
+      form {
+        position: relative;
+        top: 80px;
+      }
+
+      #newuser {
+        position: relative;
+        top: 200px;
+        font-size: 20px;
+      }
     </style>
   </head>
 
   <body>
-    <div class="welcome">
-      <h1>Welcome to Thirsty Plants!</h1>
-      <h2>
-        Create your account and get started,<br />
-        you won't regret it.<br />
-      </h2>
-    </div>
-
     <div class="signin" id="sign">
       <p>Sign In</p>
+      <p id="getstarted">
+        Create your account <br />and get started.<br />You won't regret it.
+      </p>
       <form>
         <label for="username">Username:</label><br />
         <input type="text" id="username" name="username" /><br />
         <label for="pword">Password:</label><br />
         <input type="text" id="password" name="password" />
       </form>
+      <p id="newuser">New user? Sign Up.</p>
     </div>
   </body>
 </html>
