@@ -6,35 +6,50 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Thirsty Plants: About</title>
     <style>
-      body {
+      body, html {
+        width: 100%;
+        height: 100%;
         background-image: url("./aboutpagepics.jpg");
         background-repeat: no-repeat;
         background-size: cover;
       }
 
-      a:link{text-decoration: none; color: black;}
-      a:active {text-decoration: none; color: black;}
-      a:visited {text-decoration: none; color: black;}
+      a:link{text-decoration: none; color: rgb(0, 0, 0);}
+      a:active {text-decoration: none; color: rgb(0, 0, 0);}
+      a:visited {text-decoration: none; color: rgb(0, 0, 0);}
       a:hover {color:rgba(37, 219, 9, 0.589); text-decoration: underline;}
+
+      #navi {background-color:aliceblue; float: left; display: inline; padding: 0px; margin: 0px;
+        position: relative; top: -10px; width: 100%;}
+
+      h4 {display: inline; float: left; font-size: 20px; padding: 15px; margin: 0px;}
+      #signup{position: relative; left: 990px;}
+      #signin{position: relative; left: 950px;}
     
-      h3, header {
+      h3{
         position: relative;
         text-align: center;
-        top: 100px;
+        top: 200px;
         left: 170px;
         background-color: rgba(246, 249, 245, 0.7);
         width: 75%;
         padding-top: 0px; margin-top: 0px;
       }
 
-      h2 {font-size: 60px;}
 
-      .navi {background-color:aliceblue; display: block; padding: 30px; 
-        position: relative; top: -10px;}
-    h4 {float: left; font-size: 30px; padding-top: 0px; margin-top: 0px; position: relative;
-        top: -20px}
-    #signin {position: relative; left: 900px;}
-    #signup{position: relative; left: 1000px;}
+      h2 {font-size: 60px;
+        position: relative;
+        text-align: center;
+        width: 75%; 
+        display: inline-block;
+        background-color: rgba(246, 249, 245, 0.7);
+        top: 200px;
+        left: 170px;
+        color: rgb(0, 0, 0);
+      }
+      
+   
+    
 
         
     </style>
@@ -42,16 +57,15 @@
   </head>
 
   <body>
-    <div class="navi">
-      <h4><a href="./index.html"">Thirsty Plants</a></h1>
+    <div id="navi">
+      <h4 style="font-family: cursive;"><a href="./index.html"">Thirsty Plants</a></h1>
       <h4 id="signin"><a href="./login.html">Sign in</a></h4>
-      <h4 id="signup">Sign Up</h4>
+      <h4 id="signup"><a href="./New User.html">Sign Up</a></h4>
     </div>
 
+    <h2>About</h2>
+
     <div class="text">
-      <header>
-        <h2>About</h1>
-      </header>
 
       <h3 style="font-size: 30px">
       Tired of forgetting how often and when you should water your plants?
@@ -61,7 +75,7 @@
       <br />
       recommended watering needs for your plants and create a schedule to
       alert<br />
-      you when your plants need water again. All you have to do is Sign Up.
+      you when your plants need water again. All you have to do is<a id="signup2" href="./New User.html"> Sign Up</a>.
       </h3>
     </div>
     
